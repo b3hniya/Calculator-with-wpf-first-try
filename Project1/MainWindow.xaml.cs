@@ -79,7 +79,6 @@ namespace Project1
 
         private void EqualBtn_Click(object sender, RoutedEventArgs e)
         {
-
             if (_selectendOperation == Operations.Divide)
                 ResultNumber = CalculatorMath.Division(_firstNumber, _secondNumber);
 
